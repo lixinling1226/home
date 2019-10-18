@@ -1,0 +1,55 @@
+body
+{
+	background-image: url("pink.jpg");
+	font-family: "Times New Roman", Times, serif;
+} 
+
+/* shadows for text*/
+h1, .white, .shadow
+{
+  text-shadow: 2px 2px #BF67B5  ;
+}
+/* center image in index */
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* pictures of members in their own html  */
+.member
+{
+  text-align: center;
+}
+
+.center
+{
+	text-align: center;
+}
+/* pictures of members in index */
+.blackpink
+{
+	column-count: 2;
+}
+/* size for fonts other than index page */
+.size{
+  font-size: 20px;
+}
+/* colour for quotes and "home" */
+.white
+{
+	color: #FFFFFF;
+}
+
+.colour
+{
+	animation-name: pink;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes pink
+{
+	0% {background-color: rgba(172, 151, 236, 0.51);}
+	50% {background-color: rgba(121, 207, 240, 0.5);}
+	100% {background-color: rgba(172, 151, 236, 0.51);}
+}
