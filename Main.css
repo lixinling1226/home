@@ -53,3 +53,8 @@ img
 	50% {background-color: rgba(121, 207, 240, 0.5);}
 	100% {background-color: rgba(172, 151, 236, 0.51);}
 }
+
+#references
+{
+	background-color: #6fede1;
+}
